@@ -1,0 +1,60 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url('blurry-gradient-haikei1.svg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+h2{
+    margin-bottom: 20px;
+    font-size: 1.1rm;
+    font-weight: 600;
+    text-align: center;
+}
+.container{
+    
+    max-width: 400px;
+    background-color: white;
+    padding: 50px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: auto;
+
+}
+.box{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.btn {
+    background-color: #0066FF; 
+    color: #fff; 
+    border: none; 
+    padding: 12px 24px; 
+    text-align: center; 
+    text-decoration: none; 
+    font-size: 18px; 
+    font-weight: 500; 
+    border-radius: 50px; 
+    overflow: hidden; 
+    cursor: pointer; 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2); 
+    transition: all 0.2s ease-in-out; 
+  }
+  
+  .btn:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  }
+  .joke-text{
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+  }
